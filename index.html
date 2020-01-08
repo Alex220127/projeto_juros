@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora de juros</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="calculos.js"></script>
+</head>
+<body> 
+    <div id="principal">
+        <div id="conteudo-principal">
+            <div id="titulos">
+                <h1>Calculadora de juros simples</h1>
+                <h2>Informe o valor, a taxa e o tempo do impréstimo</h2>
+            </div>
+            <div id="campos">
+                <input class="campo_digitacao" type="text" id="valor" placeholder="Valor(R$)"><br><br>
+                <input class="campo_digitacao" type="text" id="taxa" placeholder="Taxa(%)"><br><br>
+                <input class="campo_digitacao" type="text" id="tempo" placeholder="Tempo(meses)"><br><br>
+            </div>
+            <div id="botoes">
+                <button onclick ="capturarDados();" class="botao" type="button">Calcular</button><br><br>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
